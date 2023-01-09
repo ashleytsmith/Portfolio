@@ -1,0 +1,17 @@
+$default-background-color: white;
+$default-border: 4px solid #cecece;
+$default-color: black;
+$default-padding: 40px;
+
+.App {
+
+  background-color: $default-background-color;
+  color: $default-color;
+
+}
+
+body {
+
+  padding: $default-padding;
+
+}
