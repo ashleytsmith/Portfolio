@@ -1,9 +1,12 @@
+@import 'Fonts';
+@import 'Colors';
+
+
+
 $default-background-color: white;
-$default-border: 4px solid black;
+$default-border: 0px solid black;
 $default-color: black;
 $default-padding: 0px;
-$default-outline: auto;
-$default-outline-style: round;
 
 .Panel {
 
@@ -11,8 +14,38 @@ $default-outline-style: round;
   background-color: $default-background-color;
   color: $default-color;
   padding: $default-padding;
-  outline: $default-outline;
-  outline-style: $default-outline-style;
+ 
+}
 
+
+
+$default-title-color: $royalBlue;
+
+
+.panelTitle {
+
+  color: $default-title-color;
+  
+}
+
+
+
+$default-box-background-color: $softBlue;
+$default-box-border: 4px solid $royalBlue;
+$default-box-color: black;
+$default-box-padding: 4px;
+$default-box-margin: 4px;
+$default-box-display: inline-block;
+
+
+.coloredBox {
+
+  border: $default-box-border;
+  background-color: $default-box-background-color;
+  color: $default-box-color;
+  padding: $default-box-padding;
+  margin: $default-box-margin;
+  display: $default-box-display;
+ 
 }
 

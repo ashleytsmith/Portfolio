@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.js"
 
 import Header from './components/Header';
 import Panel from './components/Panel';
-import projectInfo from './ProjectInfo';
+import projectsInfo from './ProjectsInfo';
 
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
       
       <Header/>
 
-      {projectInfo.map(function(project) {
+      {projectsInfo.map(function(project) {
 
-        return <Panel key = {project.id} id = {project.id}  image = {project.image} description = {project.description} imageBorder = {project.imageBorder} />
+        return <Panel key = {project.id} id = {project.id} title = {project.title}  image = {project.image} description = {project.description} skillsUsed = {project.skillsUsed} imageBorder = {project.imageBorder} />
 
       })}
       
