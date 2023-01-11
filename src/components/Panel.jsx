@@ -1,5 +1,6 @@
 import "../styles/Panel.css";
 
+
 const alternateOrdering = (id) => {
 
   if(id % 2===0){
@@ -23,7 +24,7 @@ const alternateOrdering = (id) => {
 };
 
 
-function Panel({id,title,image,description,skillsUsed,imageBorder}) {
+function Panel({id,title,image,description,skillsUsed,linkToCode,imageBorder}) {
 
   // Show images in a left right alternating pattern on screens larger than a typical mobile
 
@@ -52,8 +53,10 @@ function Panel({id,title,image,description,skillsUsed,imageBorder}) {
         return <span key = {skill}  className = "coloredBox"> {skill} </span>
 
         })} </p>
+
+        <a className="btn btn-dark btn-lg" href = {linkToCode.link} > {linkToCode.description} </a>
         
-   
+      
         </div>
     
       </div>

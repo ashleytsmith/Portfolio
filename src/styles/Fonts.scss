@@ -1,8 +1,16 @@
 @font-face {
   
-    font-family: 'indie-flower';
-    src: local('indie-flower'), url(../fonts/indie-flower-v17-latin/indie-flower-v17-latin-regular.ttf) format('truetype');
-   
-  }
+  font-family: 'indie-flower';
+  src: local('indie-flower'), url(../fonts/indie-flower-v17-latin/indie-flower-v17-latin-regular.ttf) format('truetype');
+ 
+}
 
-$font-stack: 'indie-flower','Open Sans';
+@font-face {
+  
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(../fonts/Montserrat/Montserrat-ExtraBold.ttf) format('truetype');
+ 
+}
+
+
+$font-stack: 'Montserrat','Open Sans';

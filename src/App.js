@@ -20,11 +20,12 @@ function App() {
 
       {projectsInfo.map(function(project) {
 
-        return <Panel key = {project.id} id = {project.id} title = {project.title}  image = {project.image} description = {project.description} skillsUsed = {project.skillsUsed} imageBorder = {project.imageBorder} />
+        return <Panel key = {project.id} id = {project.id} title = {project.title}  image = {project.image} description = {project.description} skillsUsed = {project.skillsUsed} linkToCode = {project.linkToCode} imageBorder = {project.imageBorder} />
 
       })}
-      
+
     </div>
+
 
   );
 }
