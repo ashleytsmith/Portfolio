@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e3959aac.css",
-    "main.js": "/Portfolio/static/js/main.9c76b865.js",
+    "main.css": "/Portfolio/static/css/main.a7b4c0d8.css",
+    "main.js": "/Portfolio/static/js/main.cbab34b7.js",
     "static/js/787.fba90ef9.chunk.js": "/Portfolio/static/js/787.fba90ef9.chunk.js",
     "static/media/uni.gif": "/Portfolio/static/media/uni.baee0c223d342b1d393e.gif",
     "static/media/phd.gif": "/Portfolio/static/media/phd.c203c88e9084913c3a3b.gif",
     "static/media/javagame.gif": "/Portfolio/static/media/javagame.aaebb81d56534da99ef0.gif",
+    "static/media/colourful_background_960_by_720.jpg": "/Portfolio/static/media/colourful_background_960_by_720.934b243d3304e558622d.jpg",
+    "static/media/Montserrat-ExtraBold.ttf": "/Portfolio/static/media/Montserrat-ExtraBold.3a9ee100617f45a96d92.ttf",
     "static/media/indie-flower-v17-latin-regular.ttf": "/Portfolio/static/media/indie-flower-v17-latin-regular.e1760a57cedcaf592656.ttf",
     "index.html": "/Portfolio/index.html",
-    "main.e3959aac.css.map": "/Portfolio/static/css/main.e3959aac.css.map",
-    "main.9c76b865.js.map": "/Portfolio/static/js/main.9c76b865.js.map",
+    "main.a7b4c0d8.css.map": "/Portfolio/static/css/main.a7b4c0d8.css.map",
+    "main.cbab34b7.js.map": "/Portfolio/static/js/main.cbab34b7.js.map",
     "787.fba90ef9.chunk.js.map": "/Portfolio/static/js/787.fba90ef9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3959aac.css",
-    "static/js/main.9c76b865.js"
+    "static/css/main.a7b4c0d8.css",
+    "static/js/main.cbab34b7.js"
   ]
 }
