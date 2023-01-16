@@ -36,7 +36,7 @@ function Panel({id,title,image,description,skillsUsed,linkToCode,imageBorder}) {
   return (
     
     <div className="container-fluid p-5 my-5 Panel">
-      <h4 className = "panelTitle"><b>{title}</b> </h4>
+      <h2 className = "panelTitle"><b>{title}</b> </h2>
       
       <div className="row">
         <div className="col-sm pt-5">
@@ -48,11 +48,14 @@ function Panel({id,title,image,description,skillsUsed,linkToCode,imageBorder}) {
         <p> <b>What:</b> {description.what} </p>
         <p><b>Why:</b> {description.why} </p>
         
-        <p> {skillsUsed.map(function(skill) {
+        <p><b>Tools:</b></p>
+
+        {skillsUsed.map(function(skill) {
 
         return <span key = {skill}  className = "coloredBox"> {skill} </span>
 
-        })} </p>
+        })} 
+        <br></br>
 
         <a className="btn btn-dark btn-lg" href = {linkToCode.link} > {linkToCode.description} </a>
         

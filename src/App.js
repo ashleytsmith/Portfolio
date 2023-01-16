@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.js"
 import Header from './components/Header';
 import Panel from './components/Panel';
 import projectsInfo from './ProjectsInfo';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
         return <Panel key = {project.id} id = {project.id} title = {project.title}  image = {project.image} description = {project.description} skillsUsed = {project.skillsUsed} linkToCode = {project.linkToCode} imageBorder = {project.imageBorder} />
 
       })}
+
+      <Contact/>
 
     </div>
 

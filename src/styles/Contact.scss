@@ -1,0 +1,68 @@
+@import 'Colors';
+@import 'Fonts.scss';
+
+
+
+.contact {
+
+    font-family: 'Open Sans', Helvetica;
+    
+}
+
+
+input, textarea {
+
+
+    border: 4px solid $royalBlue;
+    border-radius: 4pt;
+    display:  block;
+    text-align: center;
+    margin: auto;
+    
+   
+    
+}
+
+
+textarea {
+
+    height: 300px;
+    text-align: left;
+    
+}
+
+
+.send-button {
+
+    display:  block;
+    margin: auto;
+    margin-top: 16px;
+
+
+}
+
+
+label {
+
+    letter-spacing:  4px;
+    display:  block;
+    text-align:center;
+
+}
+
+
+
+.contact-title {
+
+  color: $royalBlue;
+ 
+}
+
+
+a {
+
+    color: $royalBlue;
+  
+  }
+
+

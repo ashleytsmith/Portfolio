@@ -8,15 +8,24 @@ $default-border: 0px solid black;
 $default-color: black;
 $default-padding: 0px;
 
+
 .Panel {
 
   border: $default-border;
   background-color: $default-background-color;
   color: $default-color;
   padding: $default-padding;
+
  
 }
 
+
+$default-font-size: 125%;
+
+
+p {
+  font-size: $default-font-size;
+}
 
 
 $default-title-color: $royalBlue;
@@ -47,5 +56,15 @@ $default-box-display: inline-block;
   margin: $default-box-margin;
   display: $default-box-display;
  
+}
+
+$default-link-margin: 2px;
+$default-link-margin-top: 16px;
+
+a {
+
+  margin: $default-link-margin;
+  margin-top: $default-link-margin-top;
+
 }
 
